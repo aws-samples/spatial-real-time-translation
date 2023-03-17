@@ -1,0 +1,35 @@
+namespace Amazon.Config
+{
+    public enum AwsRegion
+    {
+        AFSouth1,
+        USIsobEast1,
+        USIsoWest1,
+        USIsoEast1,
+        USGovCloudWest1,
+        USGovCloudEast1,
+        CNNorthWest1,
+        CNNorth1,
+        USWest1,
+        USEast2,
+        USEast1,
+        SAEast1,
+        MESouth1,
+        EUWest3,
+        USWest2,
+        EUWest1,
+        EUWest2,
+        APEast1,
+        APNortheast1,
+        APNortheast2,
+        APNortheast3,
+        APSoutheast1,
+        APSouth1,
+        APSoutheast3,
+        CACentral1,
+        EUCentral1,
+        EUNorth1,
+        EUSouth1,
+        APSoutheast2,
+    }
+}
