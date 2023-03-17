@@ -30,7 +30,7 @@ To get started with the Unity VR project, please follow these steps:
 3. Deploy the AWS backend services using the AWS CDK by running `cdk deploy`.
 4. The deployment will output the following values which you will require later. `CognitoUserPoolId`, `CognitoClientId`, `IdentityPoolId`
 5. Once the backend services are deployed, navigate to the `unity/vr-real-time-translation/Assets/Plugins` folder in the repository.
-6. Download the following .NET DLL files and save to `Plugins` folder [Download .NET DLL](###Download-.NET-DLL)
+6. Download the following .NET DLL files and save to `Plugins` folder [Download .NET DLL](#download-net-dll)
     - Amazon.Extensions.CognitoAuthentication.dll
     - AWSSDK.CognitoIdentity.dll
     - AWSSDK.CognitoIdentityProvider.dll
@@ -41,7 +41,7 @@ To get started with the Unity VR project, please follow these steps:
     - Microsoft.Bcl.AsyncInterfaces.dll
     - System.Runtime.CompilerServices.Unsafe.dll
     - System.Threading.Tasks.Extensions.dll
-7. Open the Unity project in Unity version 2021.3.19f1. [Unity Instructions](###Unity-Installation)
+7. Open the Unity project in Unity version 2021.3.19f1. [Unity Instructions](#unity-installation)
 8. In the Unity Editor, open the `Assets/ScriptableObjects/AWSConfig` and under Resources-> Cognito update the `User Pool ID`, `App Client ID`, and `Identity Pool ID` values with the output of the cdk deploy command.
 9. In the Unity Editor, open the `Assets/Scenes` folder and select Main scene. 
 10. Once the configuration is complete, you can run the Unity VR project.
