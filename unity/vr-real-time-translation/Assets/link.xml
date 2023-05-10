@@ -1,0 +1,10 @@
+<linker>
+    <assembly fullname="AWSSDK.Core" preserve="all"/>
+    <assembly fullname="AWSSDK.CognitoIdentity" preserve="all"/>
+    <assembly fullname="AWSSDK.AWSSDK.CognitoIdentityProvider" preserve="all"/>
+    <assembly fullname="Amazon.Extensions.CognitoAuthentication" preserve="all"/>
+    <assembly fullname="AWSSDK.SecurityToken" preserve="all"/>
+    <assembly fullname="AWSSDK.Polly" preserve="all"/>
+    <assembly fullname="AWSSDK.Translate" preserve="all"/>
+    <assembly fullname="AWSSDK.TranscribeService" preserve="all"/>
+</linker>
