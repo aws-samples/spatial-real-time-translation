@@ -1,4 +1,4 @@
-# Spatial-Real-Time-Transation
+# Spatial Real Time Translation
 
 In this sample we show how Amazon Transcribe, Amazon Translate, and Amazon Polly can be used together to produce a near real-time speech-to-speech translator solution for your next VR project. This repository is structured with a backend/ folder that contains CDK files to deploy AWS backend services, and a unity/vr-real-time-translation folder that contains the Unity VR project build using Unity version 2021.3.19f1. 
 
